@@ -1,0 +1,22 @@
+<div class="left-btn">
+  <app-button
+    *ngFor="let item of buttons"
+    (click)="clickBtn(item.label)"
+    [label]="item.label"
+    [width]="item.width"
+  ></app-button>
+</div>
+<div class="right-btn">
+  <app-button
+    *ngFor="let item of symbols"
+    (click)="clickBtn(item.label)"
+    [label]="item.label"
+    [width]="item.width"
+    [isSimbol]="true"
+  ></app-button>
+  <!-- <button class="symbol">/</button>
+  <button class="symbol">&#215;</button>
+  <button class="symbol">-</button>
+  <button class="symbol">+</button>
+  <button class="symbol">.</button> -->
+</div>

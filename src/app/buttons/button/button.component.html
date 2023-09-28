@@ -1,0 +1,9 @@
+<button
+  [style.width]="width + 'px'"
+  [ngClass]="{
+    del: label === 'DEL',
+    symbol: label === 'C' || label === '√' || isSimbol
+  }"
+>
+  {{ label }}
+</button>

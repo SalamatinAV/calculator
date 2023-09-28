@@ -1,0 +1,32 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  text-align: end;
+  padding-right: 40px;
+  width: 450px;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  color: #fff;
+  font-size: 60px;
+  outline: none;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.expretion {
+  color: #ffffff7d;
+  margin-bottom: 0;
+  margin: 0;
+  padding-right: 40px;
+  font-size: 24px;
+  height: 27px;
+}
