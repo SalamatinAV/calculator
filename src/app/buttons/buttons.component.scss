@@ -1,41 +1,28 @@
-
-
-// app-button ::ng-deep button {
-//    width: 100px;
-//    font-size: 50px;
-//    color: #fff;
-//    background: rgba(0, 0, 0, 0);
-//    border: 0;
-// }
-
 button {
-   width: 100px;
-   font-size: 50px;
-   color: #fff;
-   background: rgba(0, 0, 0, 0);
-   border: 0;
+  width: 100px;
+  font-size: 50px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
 }
 
 .left-btn {
-   display: flex;
-   color: #fff;
-   right: 40px;
-   width: 380px;
-   height: 555px;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: center;
-   
-} 
-
-.right-btn {
-   display: flex;
-   height: 555px;
-   width: 120px;
-   justify-content: space-around;
-   align-items: center;
-   flex-direction: column;
-   
+  display: flex;
+  color: #fff;
+  right: 40px;
+  width: 380px;
+  height: 555px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
 
+.right-btn {
+  display: flex;
+  height: 555px;
+  width: 120px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
