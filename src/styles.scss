@@ -1,4 +1,7 @@
 body {
   margin: 0;
-  background: url(../img/2423223.jpg);
+  background-image: url("/assets/images/2423223.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
